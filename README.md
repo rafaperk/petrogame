@@ -21,6 +21,9 @@ questão (e cada jogo) volta.
 
 Requisitos: [Node.js](https://nodejs.org) 24+ (testado com o 26).
 
+Versão publicada: **https://rafaperk.github.io/petrogame/** (atualiza sozinha a cada push na `main`,
+via `.github/workflows/deploy.yml`). O save fica no navegador: o do site e o do `localhost` são separados.
+
 ```bash
 npm install
 npm run dev        # abre em http://localhost:5173
