@@ -1,0 +1,25 @@
+{
+  "name": "rumo-ao-pre-sal",
+  "private": true,
+  "version": "0.1.0",
+  "description": "RPG de exploração para estudar para o concurso da Petrobras: aprenda com mentores, cultive a Horta do Saber e revise com repetição espaçada (FSRS).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0",
+    "@fontsource/pixelify-sans": "^5.3.0",
+    "phaser": "^4.2.1",
+    "ts-fsrs": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,42 @@
+import { defineSubject } from '../../learning/types';
+
+/** Conhecimentos Específicos — Bloco 1 (Edital PSP RH 2018.1, Engenheiro(a) de Equipamentos Júnior – Mecânica). */
+export default defineSubject({
+  id: 'bloco1',
+  name: 'Específicos · Bloco 1',
+  short: 'Bloco 1',
+  color: '#2a9d8f',
+  icon: '🌡️',
+  mentorId: 'otavio',
+  place: 'Laboratório de Fundamentos',
+  description: 'Termodinâmica, Mecânica dos Fluidos, Resistência dos Materiais e Dinâmica. O maior bloco (20 questões) e o 1º critério de desempate.',
+  order: 3,
+  field: 'refinaria',
+  equipment: 'panel',
+  exam: {
+    part: 'especificos',
+    questions: 20,
+    items: [
+      { id: 'b1.termo-propriedades', text: 'Termodinâmica: estado e propriedades termodinâmicas; relações termodinâmicas' },
+      { id: 'b1.termo-1lei', text: 'Primeira lei e conservação de energia' },
+      { id: 'b1.termo-2lei', text: 'Segunda lei aplicada a ciclos e processos; disponibilidade e irreversibilidade' },
+      { id: 'b1.gases', text: 'Gases perfeitos' },
+      { id: 'b1.ciclos-teoricos', text: 'Ciclos teóricos de geração de potência e de refrigeração' },
+      { id: 'b1.fluidos-propriedades', text: 'Mecânica dos Fluidos: propriedades e natureza dos fluidos; hidrostática' },
+      { id: 'b1.fluidos-dinamica', text: 'Equações constitutivas da dinâmica dos fluidos (continuidade, quantidade de movimento, energia) e aplicações' },
+      { id: 'b1.analise-dimensional', text: 'Análise dimensional e relações de semelhança' },
+      { id: 'b1.tubulacoes', text: 'Escoamento em tubulações' },
+      { id: 'b1.arrasto', text: 'Força de arrasto e de sustentação; noções de escoamento compressível em bocais' },
+      { id: 'b1.tracao', text: 'Resistência dos Materiais: tração e compressão entre os limites elásticos' },
+      { id: 'b1.cortante-fletor', text: 'Força cortante e momento fletor' },
+      { id: 'b1.tensoes', text: 'Análise e transformação de tensões; estado plano de tensões e de deformações' },
+      { id: 'b1.vigas', text: 'Tensões e deformações em vigas carregadas transversalmente; flexão' },
+      { id: 'b1.torcao', text: 'Torção e momento torsor' },
+      { id: 'b1.combinados', text: 'Flexão, tração e torção combinadas' },
+      { id: 'b1.criterios', text: 'Critérios de escoamento (máxima tensão de cisalhamento e máxima energia de distorção)' },
+      { id: 'b1.energia', text: 'Métodos de energia' },
+      { id: 'b1.dinamica', text: 'Dinâmica de partículas, de sistemas de partículas e do corpo rígido; rotação sem deslizamento' },
+      { id: 'b1.mecanismos', text: "Mecanismos planos: princípio de D'Alembert, esforços dinâmicos e cinemática de barras e engrenagens" },
+    ],
+  },
+});
